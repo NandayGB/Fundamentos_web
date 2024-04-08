@@ -6,8 +6,47 @@
     <title>Sobre a Fernanda</title>
     <style>
         body {
-            background-color: #ffc0cb; /* rosa claro */
-            color: black; /* texto preto */
+            background-color: #ffc0cb;
+            color: black; 
+            margin: 0; 
+            padding: 0; 
+            font-family: Arial, sans-serif; 
+        }
+        h1 {
+            color: white; 
+            text-align: center; 
+            background-color: #f6cdff; 
+            padding: 20px; 
+            margin: 0; 
+        }
+        h2 {
+            font-size: 18px; 
+            text-align: center; 
+        }
+        p {
+            margin-bottom: 20px; 
+            text-align: justify;
+        }
+        .foto-container {
+            display: flex; 
+            justify-content: center; 
+            margin-top: 20px; 
+        }
+        .foto {
+            width: 300px; 
+            height: 300px; 
+            object-fit: cover; 
+            border-radius: 50%;
+            border: 5px solid white; 
+        }
+        ul {
+            list-style-type: none; 
+            text-align: center; 
+            padding: 0; 
+        }
+        li {
+            display: inline; 
+            margin-right: 10px;
         }
     </style>
 </head>
@@ -19,8 +58,9 @@
     <p>Foi assim que percebi meu interesse crescente em aprender mais sobre tecnologia. Em 2022, tive a oportunidade de iniciar meu aprendizado em lógica de programação e JavaScript com um curso introdutório.</p>
     <p>No ano passado, trabalhei na área de compras de uma empresa de suprimentos corporativos, onde novamente me vi imersa no mundo digital, criando estratégias de marketing e mantendo a empresa relevante no mercado, além de adquirir conhecimento técnico em produtos de TI na parte de infraestrutura.</p>
     <p>Agora, ao final do ano passado, tive a oportunidade de me inscrever no curso da Generation Brasil, consolidando meu desejo de me dedicar plenamente a essa área.</p>
-    <p>Portanto, hoje estou aqui, pronta para mergulhar de cabeça em novos desafios, aproveitando minha bagagem em administração, minha paixão pela tecnologia e minha determinação em me tornar uma profissional de destaque na área da programação. Estou animada para o que o futuro reserva e para contribuir significativamente para o mundo da tecnologia. Obrigada pelo tempo e atenção.</p>
-    <img src="assets/img/fotonanda.jpg" alt="Foto da criadora do conteúdo">
+    <div class="foto-container">
+        <img src="assets/img/foto nanda.jpeg" alt="Foto da criadora do conteúdo" class="foto">
+    </div>
     <ul>
         <li>
             <a href="https://www.linkedin.com/in/barbosaafernanda/" target="_blank">Linkedin</a>
@@ -29,5 +69,3 @@
             <a href="contato.html" target="_blank">Contato</a>
         </li>
     </ul>
-</body>
-</html>
